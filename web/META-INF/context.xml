@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/EMS">
+  <Resource auth="Container" 
+            driverClassName="com.mysql.jdbc.Driver"
+            maxIdle="30" maxTotal="200" 
+            maxWaitMillis="10000" 
+            name="jdbc/eventdb" 
+            password="degraP@55w0rd"
+            removeAbandonedOnBorrow="true" 
+            removeAbandonedOnMaintenance="true"
+            removeAbandonedTimeout="60"
+            type="javax.sql.DataSource" 
+            url="jdbc:mysql://localhost:3306/eventdb?autoReconnect=true" 
+            username="root"/>
+</Context>
